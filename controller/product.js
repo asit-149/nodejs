@@ -6,7 +6,11 @@ const model = require('../model/product');
 const { default: mongoose } = require('mongoose');
 const Product = model.Product;
 // const mongoose = require('mongoose');
-
+ console.log('env',process.env.DB_PASSWORD)
+// Asitgtugy123 -- AsitTestCommerce
+// Asit654dcydhc --db password
+// mongodb+srv://AsitTestCommerce:Asitgtugy123@cluster0.fqfbmgj.mongodb.net/ecommerceDatabase-For CompassMongoDb Connection
+// mongodb+srv://AsitTestCommerce:Asitgtugy123@cluster0.fqfbmgj.mongodb.net/?retryWrites=true&w=majori
 // exports.createProducts = (req, res) => {
 //   console.log(req.body)
 //   products.push(req.body)
