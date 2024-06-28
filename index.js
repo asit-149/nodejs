@@ -9,10 +9,7 @@ const server = express();
 const productRouter = require('./routes/product')
 const userRouter = require('./routes/user')
 // console.log('env',process.env.DB_PASSWORD)
-// Asitgtugy123 -- AsitTestCommerce
-// Asit654dcydhc --db password
-// mongodb+srv://AsitTestCommerce:Asitgtugy123@cluster0.fqfbmgj.mongodb.net/ecommerceDatabase-For CompassMongoDb Connection
-// mongodb+srv://AsitTestCommerce:Asitgtugy123@cluster0.fqfbmgj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 //db connection
 main().catch(err => console.log(err));
 
